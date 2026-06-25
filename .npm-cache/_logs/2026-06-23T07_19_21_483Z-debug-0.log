@@ -1,0 +1,565 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.12.1
+2 info using node@v24.15.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/.npmrc
+5 silly config load:file:/Users/dmitrysergeenko/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm ls
+8 verbose argv "ls" "--depth" "0"
+9 verbose logfile logs-max:10 dir:/Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/.npm-cache/_logs/2026-06-23T07_19_21_483Z-
+10 verbose logfile /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/.npm-cache/_logs/2026-06-23T07_19_21_483Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+14 verbose stack Error: extraneous: @electric-sql/pglite-socket@0.1.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@electric-sql/pglite-socket
+14 verbose stack extraneous: @electric-sql/pglite-tools@0.3.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@electric-sql/pglite-tools
+14 verbose stack extraneous: @electric-sql/pglite@0.4.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@electric-sql/pglite
+14 verbose stack extraneous: @esbuild/darwin-arm64@0.28.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@esbuild/darwin-arm64
+14 verbose stack extraneous: @google/model-viewer@4.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@google/model-viewer
+14 verbose stack extraneous: @hono/node-server@1.19.11 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@hono/node-server
+14 verbose stack extraneous: @kurkle/color@0.3.4 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@kurkle/color
+14 verbose stack extraneous: @lit-labs/ssr-dom-shim@1.6.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@lit-labs/ssr-dom-shim
+14 verbose stack extraneous: @lit/reactive-element@2.1.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@lit/reactive-element
+14 verbose stack extraneous: @monogrid/gainmap-js@3.4.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@monogrid/gainmap-js
+14 verbose stack extraneous: @oxc-project/types@0.130.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@oxc-project/types
+14 verbose stack extraneous: @prisma/adapter-pg@7.8.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/adapter-pg
+14 verbose stack extraneous: @prisma/client-runtime-utils@7.8.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/client-runtime-utils
+14 verbose stack extraneous: @prisma/client@7.8.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/client
+14 verbose stack extraneous: @prisma/config@7.8.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/config
+14 verbose stack extraneous: @prisma/debug@7.8.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/debug
+14 verbose stack extraneous: @prisma/dev@0.24.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/dev
+14 verbose stack extraneous: @prisma/driver-adapter-utils@7.8.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/driver-adapter-utils
+14 verbose stack extraneous: @prisma/engines-version@7.8.0-6.3c6e192761c0362d496ed980de936e2f3cebcd3a /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/engines-version
+14 verbose stack extraneous: @prisma/engines@7.8.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/engines
+14 verbose stack extraneous: @prisma/fetch-engine@7.8.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/fetch-engine
+14 verbose stack extraneous: @prisma/get-platform@7.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/get-platform
+14 verbose stack extraneous: @prisma/query-plan-executor@7.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/query-plan-executor
+14 verbose stack extraneous: @prisma/streams-local@0.1.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/streams-local
+14 verbose stack extraneous: @prisma/studio-core@0.27.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/studio-core
+14 verbose stack extraneous: @radix-ui/primitive@1.1.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@radix-ui/primitive
+14 verbose stack extraneous: @radix-ui/react-compose-refs@1.1.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@radix-ui/react-compose-refs
+14 verbose stack extraneous: @radix-ui/react-primitive@2.1.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@radix-ui/react-primitive
+14 verbose stack extraneous: @radix-ui/react-slot@1.2.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@radix-ui/react-slot
+14 verbose stack extraneous: @radix-ui/react-toggle@1.1.10 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@radix-ui/react-toggle
+14 verbose stack extraneous: @radix-ui/react-use-controllable-state@1.2.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@radix-ui/react-use-controllable-state
+14 verbose stack extraneous: @radix-ui/react-use-effect-event@0.0.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@radix-ui/react-use-effect-event
+14 verbose stack extraneous: @radix-ui/react-use-layout-effect@1.1.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@radix-ui/react-use-layout-effect
+14 verbose stack extraneous: @rolldown/binding-darwin-arm64@1.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@rolldown/binding-darwin-arm64
+14 verbose stack extraneous: @rolldown/pluginutils@1.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@rolldown/pluginutils
+14 verbose stack extraneous: @standard-schema/spec@1.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@standard-schema/spec
+14 verbose stack extraneous: @types/body-parser@1.19.6 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/body-parser
+14 verbose stack extraneous: @types/connect@3.4.38 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/connect
+14 verbose stack extraneous: @types/express-serve-static-core@5.1.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/express-serve-static-core
+14 verbose stack extraneous: @types/express@5.0.6 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/express
+14 verbose stack extraneous: @types/http-errors@2.0.5 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/http-errors
+14 verbose stack extraneous: @types/multer@2.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/multer
+14 verbose stack extraneous: @types/node@25.8.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/node
+14 verbose stack extraneous: @types/pg@8.20.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/pg
+14 verbose stack extraneous: @types/qrcode@1.5.6 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/qrcode
+14 verbose stack extraneous: @types/qs@6.15.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/qs
+14 verbose stack extraneous: @types/range-parser@1.2.7 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/range-parser
+14 verbose stack extraneous: @types/react-dom@19.2.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/react-dom
+14 verbose stack extraneous: @types/react@19.2.14 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/react
+14 verbose stack extraneous: @types/send@1.2.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/send
+14 verbose stack extraneous: @types/serve-static@2.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/serve-static
+14 verbose stack extraneous: @types/trusted-types@2.0.7 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/trusted-types
+14 verbose stack invalid: @vitejs/plugin-react@6.0.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@vitejs/plugin-react
+14 verbose stack extraneous: accepts@2.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/accepts
+14 verbose stack extraneous: ajv@8.20.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/ajv
+14 verbose stack extraneous: ansi-regex@5.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/ansi-regex
+14 verbose stack extraneous: ansi-styles@4.3.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/ansi-styles
+14 verbose stack extraneous: append-field@1.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/append-field
+14 verbose stack extraneous: aws-ssl-profiles@1.1.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/aws-ssl-profiles
+14 verbose stack extraneous: better-result@2.9.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/better-result
+14 verbose stack extraneous: body-parser@2.2.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/body-parser
+14 verbose stack extraneous: buffer-from@1.1.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/buffer-from
+14 verbose stack extraneous: busboy@1.6.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/busboy
+14 verbose stack extraneous: bytes@3.1.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/bytes
+14 verbose stack extraneous: c12@3.3.4 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/c12
+14 verbose stack extraneous: call-bind-apply-helpers@1.0.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/call-bind-apply-helpers
+14 verbose stack extraneous: call-bound@1.0.4 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/call-bound
+14 verbose stack extraneous: camelcase@5.3.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/camelcase
+14 verbose stack extraneous: chalk@4.1.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/chalk
+14 verbose stack extraneous: chart.js@4.5.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/chart.js
+14 verbose stack extraneous: chokidar@5.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/chokidar
+14 verbose stack extraneous: cliui@8.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/cliui
+14 verbose stack extraneous: color-convert@2.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/color-convert
+14 verbose stack extraneous: color-name@1.1.4 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/color-name
+14 verbose stack extraneous: concat-stream@2.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/concat-stream
+14 verbose stack extraneous: concurrently@9.2.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/concurrently
+14 verbose stack extraneous: confbox@0.2.4 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/confbox
+14 verbose stack extraneous: content-disposition@1.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/content-disposition
+14 verbose stack extraneous: content-type@1.0.5 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/content-type
+14 verbose stack extraneous: cookie-signature@1.2.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/cookie-signature
+14 verbose stack extraneous: cookie@0.7.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/cookie
+14 verbose stack extraneous: cross-spawn@7.0.6 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/cross-spawn
+14 verbose stack extraneous: csstype@3.2.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/csstype
+14 verbose stack extraneous: debug@4.4.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/debug
+14 verbose stack extraneous: decamelize@1.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/decamelize
+14 verbose stack extraneous: deepmerge-ts@7.1.5 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/deepmerge-ts
+14 verbose stack extraneous: defu@6.1.7 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/defu
+14 verbose stack extraneous: denque@2.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/denque
+14 verbose stack extraneous: depd@2.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/depd
+14 verbose stack extraneous: destr@2.0.5 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/destr
+14 verbose stack extraneous: detect-libc@2.1.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/detect-libc
+14 verbose stack extraneous: dijkstrajs@1.0.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/dijkstrajs
+14 verbose stack extraneous: dotenv@17.4.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/dotenv
+14 verbose stack extraneous: dunder-proto@1.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/dunder-proto
+14 verbose stack extraneous: ee-first@1.1.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/ee-first
+14 verbose stack extraneous: effect@3.20.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/effect
+14 verbose stack extraneous: emoji-regex@8.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/emoji-regex
+14 verbose stack extraneous: empathic@2.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/empathic
+14 verbose stack extraneous: encodeurl@2.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/encodeurl
+14 verbose stack extraneous: env-paths@3.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/env-paths
+14 verbose stack extraneous: es-define-property@1.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/es-define-property
+14 verbose stack extraneous: es-errors@1.3.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/es-errors
+14 verbose stack extraneous: es-object-atoms@1.1.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/es-object-atoms
+14 verbose stack extraneous: esbuild@0.28.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/esbuild
+14 verbose stack extraneous: escalade@3.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/escalade
+14 verbose stack extraneous: escape-html@1.0.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/escape-html
+14 verbose stack extraneous: etag@1.8.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/etag
+14 verbose stack extraneous: express@5.2.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/express
+14 verbose stack extraneous: exsolve@1.0.8 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/exsolve
+14 verbose stack extraneous: fast-check@3.23.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/fast-check
+14 verbose stack extraneous: fast-deep-equal@3.1.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/fast-deep-equal
+14 verbose stack extraneous: fast-uri@3.1.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/fast-uri
+14 verbose stack extraneous: fdir@6.5.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/fdir
+14 verbose stack extraneous: finalhandler@2.1.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/finalhandler
+14 verbose stack extraneous: find-up@4.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/find-up
+14 verbose stack extraneous: foreground-child@3.3.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/foreground-child
+14 verbose stack extraneous: forwarded@0.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/forwarded
+14 verbose stack extraneous: fresh@2.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/fresh
+14 verbose stack extraneous: fsevents@2.3.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/fsevents
+14 verbose stack extraneous: function-bind@1.1.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/function-bind
+14 verbose stack extraneous: generate-function@2.3.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/generate-function
+14 verbose stack extraneous: get-caller-file@2.0.5 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/get-caller-file
+14 verbose stack extraneous: get-intrinsic@1.3.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/get-intrinsic
+14 verbose stack extraneous: get-port-please@3.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/get-port-please
+14 verbose stack extraneous: get-proto@1.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/get-proto
+14 verbose stack extraneous: giget@3.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/giget
+14 verbose stack extraneous: gopd@1.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/gopd
+14 verbose stack extraneous: graceful-fs@4.2.11 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/graceful-fs
+14 verbose stack extraneous: grammex@3.1.12 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/grammex
+14 verbose stack extraneous: graphmatch@1.1.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/graphmatch
+14 verbose stack extraneous: has-flag@4.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/has-flag
+14 verbose stack extraneous: has-symbols@1.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/has-symbols
+14 verbose stack extraneous: hasown@2.0.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/hasown
+14 verbose stack extraneous: hono@4.12.23 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/hono
+14 verbose stack extraneous: http-errors@2.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/http-errors
+14 verbose stack extraneous: http-status-codes@2.3.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/http-status-codes
+14 verbose stack extraneous: iconv-lite@0.7.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/iconv-lite
+14 verbose stack extraneous: immediate@3.0.6 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/immediate
+14 verbose stack extraneous: inherits@2.0.4 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/inherits
+14 verbose stack extraneous: ipaddr.js@1.9.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/ipaddr.js
+14 verbose stack extraneous: is-fullwidth-code-point@3.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/is-fullwidth-code-point
+14 verbose stack extraneous: is-promise@2.2.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/is-promise
+14 verbose stack extraneous: is-property@1.0.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/is-property
+14 verbose stack extraneous: isexe@2.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/isexe
+14 verbose stack extraneous: jiti@2.7.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/jiti
+14 verbose stack extraneous: json-schema-traverse@1.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/json-schema-traverse
+14 verbose stack extraneous: lie@3.3.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/lie
+14 verbose stack extraneous: lightningcss-darwin-arm64@1.32.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/lightningcss-darwin-arm64
+14 verbose stack extraneous: lightningcss@1.32.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/lightningcss
+14 verbose stack extraneous: lit-element@4.2.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/lit-element
+14 verbose stack extraneous: lit-html@3.3.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/lit-html
+14 verbose stack extraneous: lit@3.3.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/lit
+14 verbose stack extraneous: locate-path@5.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/locate-path
+14 verbose stack extraneous: long@5.3.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/long
+14 verbose stack extraneous: lru.min@1.1.4 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/lru.min
+14 verbose stack extraneous: lucide-react@1.16.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/lucide-react
+14 verbose stack extraneous: math-intrinsics@1.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/math-intrinsics
+14 verbose stack extraneous: media-typer@1.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/media-typer
+14 verbose stack extraneous: merge-descriptors@2.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/merge-descriptors
+14 verbose stack extraneous: mime-db@1.54.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/mime-db
+14 verbose stack extraneous: mime-types@3.0.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/mime-types
+14 verbose stack extraneous: ms@2.1.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/ms
+14 verbose stack extraneous: multer@2.1.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/multer
+14 verbose stack extraneous: mysql2@3.15.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/mysql2
+14 verbose stack extraneous: named-placeholders@1.1.6 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/named-placeholders
+14 verbose stack extraneous: nanoid@5.1.11 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/nanoid
+14 verbose stack extraneous: negotiator@1.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/negotiator
+14 verbose stack extraneous: object-inspect@1.13.4 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/object-inspect
+14 verbose stack extraneous: ohash@2.0.11 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/ohash
+14 verbose stack extraneous: on-finished@2.4.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/on-finished
+14 verbose stack extraneous: once@1.4.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/once
+14 verbose stack extraneous: p-limit@2.3.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/p-limit
+14 verbose stack extraneous: p-locate@4.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/p-locate
+14 verbose stack extraneous: p-try@2.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/p-try
+14 verbose stack extraneous: parseurl@1.3.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/parseurl
+14 verbose stack extraneous: path-exists@4.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/path-exists
+14 verbose stack extraneous: path-key@3.1.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/path-key
+14 verbose stack extraneous: path-to-regexp@8.4.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/path-to-regexp
+14 verbose stack extraneous: pathe@2.0.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/pathe
+14 verbose stack extraneous: perfect-debounce@2.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/perfect-debounce
+14 verbose stack extraneous: pg-cloudflare@1.4.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/pg-cloudflare
+14 verbose stack extraneous: pg-connection-string@2.13.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/pg-connection-string
+14 verbose stack extraneous: pg-int8@1.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/pg-int8
+14 verbose stack extraneous: pg-pool@3.14.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/pg-pool
+14 verbose stack extraneous: pg-protocol@1.14.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/pg-protocol
+14 verbose stack extraneous: pg-types@2.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/pg-types
+14 verbose stack extraneous: pg@8.21.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/pg
+14 verbose stack extraneous: pgpass@1.0.5 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/pgpass
+14 verbose stack extraneous: picocolors@1.1.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/picocolors
+14 verbose stack extraneous: picomatch@4.0.4 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/picomatch
+14 verbose stack extraneous: pkg-types@2.3.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/pkg-types
+14 verbose stack extraneous: pngjs@5.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/pngjs
+14 verbose stack extraneous: postcss@8.5.14 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/postcss
+14 verbose stack extraneous: postgres-array@3.0.4 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/postgres-array
+14 verbose stack extraneous: postgres-bytea@1.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/postgres-bytea
+14 verbose stack extraneous: postgres-date@1.0.7 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/postgres-date
+14 verbose stack extraneous: postgres-interval@1.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/postgres-interval
+14 verbose stack extraneous: postgres@3.4.7 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/postgres
+14 verbose stack extraneous: prisma@7.8.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/prisma
+14 verbose stack extraneous: promise-worker-transferable@1.0.4 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/promise-worker-transferable
+14 verbose stack extraneous: proper-lockfile@4.1.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/proper-lockfile
+14 verbose stack extraneous: proxy-addr@2.0.7 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/proxy-addr
+14 verbose stack extraneous: pure-rand@6.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/pure-rand
+14 verbose stack extraneous: qrcode@1.5.4 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/qrcode
+14 verbose stack extraneous: qs@6.15.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/qs
+14 verbose stack extraneous: range-parser@1.2.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/range-parser
+14 verbose stack extraneous: raw-body@3.0.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/raw-body
+14 verbose stack extraneous: rc9@3.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/rc9
+14 verbose stack invalid: react-dom@19.2.6 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/react-dom
+14 verbose stack invalid: react@19.2.6 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/react
+14 verbose stack extraneous: readable-stream@3.6.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/readable-stream
+14 verbose stack extraneous: readdirp@5.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/readdirp
+14 verbose stack extraneous: remeda@2.33.4 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/remeda
+14 verbose stack extraneous: require-directory@2.1.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/require-directory
+14 verbose stack extraneous: require-from-string@2.0.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/require-from-string
+14 verbose stack extraneous: require-main-filename@2.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/require-main-filename
+14 verbose stack extraneous: retry@0.12.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/retry
+14 verbose stack extraneous: rolldown@1.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/rolldown
+14 verbose stack extraneous: router@2.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/router
+14 verbose stack extraneous: rxjs@7.8.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/rxjs
+14 verbose stack extraneous: safe-buffer@5.2.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/safe-buffer
+14 verbose stack extraneous: safer-buffer@2.1.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/safer-buffer
+14 verbose stack extraneous: scheduler@0.27.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/scheduler
+14 verbose stack extraneous: send@1.2.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/send
+14 verbose stack extraneous: seq-queue@0.0.5 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/seq-queue
+14 verbose stack extraneous: serve-static@2.2.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/serve-static
+14 verbose stack extraneous: set-blocking@2.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/set-blocking
+14 verbose stack extraneous: setprototypeof@1.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/setprototypeof
+14 verbose stack extraneous: shebang-command@2.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/shebang-command
+14 verbose stack extraneous: shebang-regex@3.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/shebang-regex
+14 verbose stack extraneous: shell-quote@1.8.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/shell-quote
+14 verbose stack extraneous: side-channel-list@1.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/side-channel-list
+14 verbose stack extraneous: side-channel-map@1.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/side-channel-map
+14 verbose stack extraneous: side-channel-weakmap@1.0.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/side-channel-weakmap
+14 verbose stack extraneous: side-channel@1.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/side-channel
+14 verbose stack extraneous: signal-exit@4.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/signal-exit
+14 verbose stack extraneous: source-map-js@1.2.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/source-map-js
+14 verbose stack extraneous: split2@4.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/split2
+14 verbose stack extraneous: sqlstring@2.3.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/sqlstring
+14 verbose stack extraneous: statuses@2.0.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/statuses
+14 verbose stack extraneous: std-env@3.10.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/std-env
+14 verbose stack extraneous: streamsearch@1.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/streamsearch
+14 verbose stack extraneous: string_decoder@1.3.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/string_decoder
+14 verbose stack extraneous: string-width@4.2.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/string-width
+14 verbose stack extraneous: strip-ansi@6.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/strip-ansi
+14 verbose stack extraneous: supports-color@8.1.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/supports-color
+14 verbose stack extraneous: three@0.182.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/three
+14 verbose stack extraneous: tinyglobby@0.2.16 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/tinyglobby
+14 verbose stack extraneous: toidentifier@1.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/toidentifier
+14 verbose stack extraneous: tree-kill@1.2.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/tree-kill
+14 verbose stack extraneous: tslib@2.8.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/tslib
+14 verbose stack extraneous: tsx@4.22.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/tsx
+14 verbose stack extraneous: type-is@2.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/type-is
+14 verbose stack extraneous: typedarray@0.0.6 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/typedarray
+14 verbose stack extraneous: typescript@6.0.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/typescript
+14 verbose stack extraneous: undici-types@7.24.6 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/undici-types
+14 verbose stack extraneous: unpipe@1.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/unpipe
+14 verbose stack extraneous: util-deprecate@1.0.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/util-deprecate
+14 verbose stack extraneous: valibot@1.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/valibot
+14 verbose stack extraneous: vary@1.1.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/vary
+14 verbose stack invalid: vite@8.0.13 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/vite
+14 verbose stack extraneous: which-module@2.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/which-module
+14 verbose stack extraneous: which@2.0.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/which
+14 verbose stack extraneous: wrap-ansi@7.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/wrap-ansi
+14 verbose stack extraneous: wrappy@1.0.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/wrappy
+14 verbose stack extraneous: xtend@4.0.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/xtend
+14 verbose stack extraneous: y18n@5.0.8 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/y18n
+14 verbose stack extraneous: yargs-parser@21.1.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/yargs-parser
+14 verbose stack extraneous: yargs@17.7.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/yargs
+14 verbose stack extraneous: zeptomatch@2.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/zeptomatch
+14 verbose stack     at LS.exec (/usr/local/lib/node_modules/npm/lib/commands/ls.js:204:9)
+14 verbose stack     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:193:9)
+14 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:67:5)
+15 error code ELSPROBLEMS
+16 error extraneous: @electric-sql/pglite-socket@0.1.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@electric-sql/pglite-socket
+16 error extraneous: @electric-sql/pglite-tools@0.3.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@electric-sql/pglite-tools
+16 error extraneous: @electric-sql/pglite@0.4.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@electric-sql/pglite
+16 error extraneous: @esbuild/darwin-arm64@0.28.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@esbuild/darwin-arm64
+16 error extraneous: @google/model-viewer@4.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@google/model-viewer
+16 error extraneous: @hono/node-server@1.19.11 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@hono/node-server
+16 error extraneous: @kurkle/color@0.3.4 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@kurkle/color
+16 error extraneous: @lit-labs/ssr-dom-shim@1.6.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@lit-labs/ssr-dom-shim
+16 error extraneous: @lit/reactive-element@2.1.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@lit/reactive-element
+16 error extraneous: @monogrid/gainmap-js@3.4.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@monogrid/gainmap-js
+16 error extraneous: @oxc-project/types@0.130.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@oxc-project/types
+16 error extraneous: @prisma/adapter-pg@7.8.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/adapter-pg
+16 error extraneous: @prisma/client-runtime-utils@7.8.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/client-runtime-utils
+16 error extraneous: @prisma/client@7.8.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/client
+16 error extraneous: @prisma/config@7.8.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/config
+16 error extraneous: @prisma/debug@7.8.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/debug
+16 error extraneous: @prisma/dev@0.24.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/dev
+16 error extraneous: @prisma/driver-adapter-utils@7.8.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/driver-adapter-utils
+16 error extraneous: @prisma/engines-version@7.8.0-6.3c6e192761c0362d496ed980de936e2f3cebcd3a /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/engines-version
+16 error extraneous: @prisma/engines@7.8.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/engines
+16 error extraneous: @prisma/fetch-engine@7.8.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/fetch-engine
+16 error extraneous: @prisma/get-platform@7.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/get-platform
+16 error extraneous: @prisma/query-plan-executor@7.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/query-plan-executor
+16 error extraneous: @prisma/streams-local@0.1.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/streams-local
+16 error extraneous: @prisma/studio-core@0.27.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@prisma/studio-core
+16 error extraneous: @radix-ui/primitive@1.1.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@radix-ui/primitive
+16 error extraneous: @radix-ui/react-compose-refs@1.1.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@radix-ui/react-compose-refs
+16 error extraneous: @radix-ui/react-primitive@2.1.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@radix-ui/react-primitive
+16 error extraneous: @radix-ui/react-slot@1.2.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@radix-ui/react-slot
+16 error extraneous: @radix-ui/react-toggle@1.1.10 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@radix-ui/react-toggle
+16 error extraneous: @radix-ui/react-use-controllable-state@1.2.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@radix-ui/react-use-controllable-state
+16 error extraneous: @radix-ui/react-use-effect-event@0.0.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@radix-ui/react-use-effect-event
+16 error extraneous: @radix-ui/react-use-layout-effect@1.1.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@radix-ui/react-use-layout-effect
+16 error extraneous: @rolldown/binding-darwin-arm64@1.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@rolldown/binding-darwin-arm64
+16 error extraneous: @rolldown/pluginutils@1.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@rolldown/pluginutils
+16 error extraneous: @standard-schema/spec@1.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@standard-schema/spec
+16 error extraneous: @types/body-parser@1.19.6 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/body-parser
+16 error extraneous: @types/connect@3.4.38 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/connect
+16 error extraneous: @types/express-serve-static-core@5.1.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/express-serve-static-core
+16 error extraneous: @types/express@5.0.6 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/express
+16 error extraneous: @types/http-errors@2.0.5 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/http-errors
+16 error extraneous: @types/multer@2.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/multer
+16 error extraneous: @types/node@25.8.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/node
+16 error extraneous: @types/pg@8.20.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/pg
+16 error extraneous: @types/qrcode@1.5.6 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/qrcode
+16 error extraneous: @types/qs@6.15.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/qs
+16 error extraneous: @types/range-parser@1.2.7 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/range-parser
+16 error extraneous: @types/react-dom@19.2.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/react-dom
+16 error extraneous: @types/react@19.2.14 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/react
+16 error extraneous: @types/send@1.2.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/send
+16 error extraneous: @types/serve-static@2.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/serve-static
+16 error extraneous: @types/trusted-types@2.0.7 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@types/trusted-types
+16 error invalid: @vitejs/plugin-react@6.0.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/@vitejs/plugin-react
+16 error extraneous: accepts@2.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/accepts
+16 error extraneous: ajv@8.20.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/ajv
+16 error extraneous: ansi-regex@5.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/ansi-regex
+16 error extraneous: ansi-styles@4.3.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/ansi-styles
+16 error extraneous: append-field@1.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/append-field
+16 error extraneous: aws-ssl-profiles@1.1.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/aws-ssl-profiles
+16 error extraneous: better-result@2.9.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/better-result
+16 error extraneous: body-parser@2.2.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/body-parser
+16 error extraneous: buffer-from@1.1.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/buffer-from
+16 error extraneous: busboy@1.6.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/busboy
+16 error extraneous: bytes@3.1.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/bytes
+16 error extraneous: c12@3.3.4 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/c12
+16 error extraneous: call-bind-apply-helpers@1.0.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/call-bind-apply-helpers
+16 error extraneous: call-bound@1.0.4 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/call-bound
+16 error extraneous: camelcase@5.3.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/camelcase
+16 error extraneous: chalk@4.1.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/chalk
+16 error extraneous: chart.js@4.5.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/chart.js
+16 error extraneous: chokidar@5.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/chokidar
+16 error extraneous: cliui@8.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/cliui
+16 error extraneous: color-convert@2.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/color-convert
+16 error extraneous: color-name@1.1.4 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/color-name
+16 error extraneous: concat-stream@2.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/concat-stream
+16 error extraneous: concurrently@9.2.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/concurrently
+16 error extraneous: confbox@0.2.4 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/confbox
+16 error extraneous: content-disposition@1.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/content-disposition
+16 error extraneous: content-type@1.0.5 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/content-type
+16 error extraneous: cookie-signature@1.2.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/cookie-signature
+16 error extraneous: cookie@0.7.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/cookie
+16 error extraneous: cross-spawn@7.0.6 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/cross-spawn
+16 error extraneous: csstype@3.2.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/csstype
+16 error extraneous: debug@4.4.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/debug
+16 error extraneous: decamelize@1.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/decamelize
+16 error extraneous: deepmerge-ts@7.1.5 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/deepmerge-ts
+16 error extraneous: defu@6.1.7 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/defu
+16 error extraneous: denque@2.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/denque
+16 error extraneous: depd@2.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/depd
+16 error extraneous: destr@2.0.5 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/destr
+16 error extraneous: detect-libc@2.1.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/detect-libc
+16 error extraneous: dijkstrajs@1.0.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/dijkstrajs
+16 error extraneous: dotenv@17.4.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/dotenv
+16 error extraneous: dunder-proto@1.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/dunder-proto
+16 error extraneous: ee-first@1.1.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/ee-first
+16 error extraneous: effect@3.20.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/effect
+16 error extraneous: emoji-regex@8.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/emoji-regex
+16 error extraneous: empathic@2.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/empathic
+16 error extraneous: encodeurl@2.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/encodeurl
+16 error extraneous: env-paths@3.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/env-paths
+16 error extraneous: es-define-property@1.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/es-define-property
+16 error extraneous: es-errors@1.3.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/es-errors
+16 error extraneous: es-object-atoms@1.1.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/es-object-atoms
+16 error extraneous: esbuild@0.28.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/esbuild
+16 error extraneous: escalade@3.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/escalade
+16 error extraneous: escape-html@1.0.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/escape-html
+16 error extraneous: etag@1.8.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/etag
+16 error extraneous: express@5.2.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/express
+16 error extraneous: exsolve@1.0.8 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/exsolve
+16 error extraneous: fast-check@3.23.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/fast-check
+16 error extraneous: fast-deep-equal@3.1.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/fast-deep-equal
+16 error extraneous: fast-uri@3.1.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/fast-uri
+16 error extraneous: fdir@6.5.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/fdir
+16 error extraneous: finalhandler@2.1.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/finalhandler
+16 error extraneous: find-up@4.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/find-up
+16 error extraneous: foreground-child@3.3.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/foreground-child
+16 error extraneous: forwarded@0.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/forwarded
+16 error extraneous: fresh@2.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/fresh
+16 error extraneous: fsevents@2.3.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/fsevents
+16 error extraneous: function-bind@1.1.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/function-bind
+16 error extraneous: generate-function@2.3.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/generate-function
+16 error extraneous: get-caller-file@2.0.5 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/get-caller-file
+16 error extraneous: get-intrinsic@1.3.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/get-intrinsic
+16 error extraneous: get-port-please@3.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/get-port-please
+16 error extraneous: get-proto@1.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/get-proto
+16 error extraneous: giget@3.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/giget
+16 error extraneous: gopd@1.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/gopd
+16 error extraneous: graceful-fs@4.2.11 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/graceful-fs
+16 error extraneous: grammex@3.1.12 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/grammex
+16 error extraneous: graphmatch@1.1.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/graphmatch
+16 error extraneous: has-flag@4.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/has-flag
+16 error extraneous: has-symbols@1.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/has-symbols
+16 error extraneous: hasown@2.0.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/hasown
+16 error extraneous: hono@4.12.23 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/hono
+16 error extraneous: http-errors@2.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/http-errors
+16 error extraneous: http-status-codes@2.3.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/http-status-codes
+16 error extraneous: iconv-lite@0.7.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/iconv-lite
+16 error extraneous: immediate@3.0.6 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/immediate
+16 error extraneous: inherits@2.0.4 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/inherits
+16 error extraneous: ipaddr.js@1.9.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/ipaddr.js
+16 error extraneous: is-fullwidth-code-point@3.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/is-fullwidth-code-point
+16 error extraneous: is-promise@2.2.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/is-promise
+16 error extraneous: is-property@1.0.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/is-property
+16 error extraneous: isexe@2.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/isexe
+16 error extraneous: jiti@2.7.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/jiti
+16 error extraneous: json-schema-traverse@1.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/json-schema-traverse
+16 error extraneous: lie@3.3.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/lie
+16 error extraneous: lightningcss-darwin-arm64@1.32.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/lightningcss-darwin-arm64
+16 error extraneous: lightningcss@1.32.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/lightningcss
+16 error extraneous: lit-element@4.2.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/lit-element
+16 error extraneous: lit-html@3.3.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/lit-html
+16 error extraneous: lit@3.3.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/lit
+16 error extraneous: locate-path@5.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/locate-path
+16 error extraneous: long@5.3.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/long
+16 error extraneous: lru.min@1.1.4 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/lru.min
+16 error extraneous: lucide-react@1.16.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/lucide-react
+16 error extraneous: math-intrinsics@1.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/math-intrinsics
+16 error extraneous: media-typer@1.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/media-typer
+16 error extraneous: merge-descriptors@2.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/merge-descriptors
+16 error extraneous: mime-db@1.54.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/mime-db
+16 error extraneous: mime-types@3.0.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/mime-types
+16 error extraneous: ms@2.1.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/ms
+16 error extraneous: multer@2.1.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/multer
+16 error extraneous: mysql2@3.15.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/mysql2
+16 error extraneous: named-placeholders@1.1.6 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/named-placeholders
+16 error extraneous: nanoid@5.1.11 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/nanoid
+16 error extraneous: negotiator@1.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/negotiator
+16 error extraneous: object-inspect@1.13.4 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/object-inspect
+16 error extraneous: ohash@2.0.11 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/ohash
+16 error extraneous: on-finished@2.4.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/on-finished
+16 error extraneous: once@1.4.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/once
+16 error extraneous: p-limit@2.3.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/p-limit
+16 error extraneous: p-locate@4.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/p-locate
+16 error extraneous: p-try@2.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/p-try
+16 error extraneous: parseurl@1.3.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/parseurl
+16 error extraneous: path-exists@4.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/path-exists
+16 error extraneous: path-key@3.1.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/path-key
+16 error extraneous: path-to-regexp@8.4.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/path-to-regexp
+16 error extraneous: pathe@2.0.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/pathe
+16 error extraneous: perfect-debounce@2.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/perfect-debounce
+16 error extraneous: pg-cloudflare@1.4.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/pg-cloudflare
+16 error extraneous: pg-connection-string@2.13.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/pg-connection-string
+16 error extraneous: pg-int8@1.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/pg-int8
+16 error extraneous: pg-pool@3.14.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/pg-pool
+16 error extraneous: pg-protocol@1.14.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/pg-protocol
+16 error extraneous: pg-types@2.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/pg-types
+16 error extraneous: pg@8.21.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/pg
+16 error extraneous: pgpass@1.0.5 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/pgpass
+16 error extraneous: picocolors@1.1.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/picocolors
+16 error extraneous: picomatch@4.0.4 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/picomatch
+16 error extraneous: pkg-types@2.3.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/pkg-types
+16 error extraneous: pngjs@5.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/pngjs
+16 error extraneous: postcss@8.5.14 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/postcss
+16 error extraneous: postgres-array@3.0.4 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/postgres-array
+16 error extraneous: postgres-bytea@1.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/postgres-bytea
+16 error extraneous: postgres-date@1.0.7 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/postgres-date
+16 error extraneous: postgres-interval@1.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/postgres-interval
+16 error extraneous: postgres@3.4.7 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/postgres
+16 error extraneous: prisma@7.8.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/prisma
+16 error extraneous: promise-worker-transferable@1.0.4 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/promise-worker-transferable
+16 error extraneous: proper-lockfile@4.1.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/proper-lockfile
+16 error extraneous: proxy-addr@2.0.7 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/proxy-addr
+16 error extraneous: pure-rand@6.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/pure-rand
+16 error extraneous: qrcode@1.5.4 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/qrcode
+16 error extraneous: qs@6.15.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/qs
+16 error extraneous: range-parser@1.2.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/range-parser
+16 error extraneous: raw-body@3.0.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/raw-body
+16 error extraneous: rc9@3.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/rc9
+16 error invalid: react-dom@19.2.6 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/react-dom
+16 error invalid: react@19.2.6 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/react
+16 error extraneous: readable-stream@3.6.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/readable-stream
+16 error extraneous: readdirp@5.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/readdirp
+16 error extraneous: remeda@2.33.4 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/remeda
+16 error extraneous: require-directory@2.1.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/require-directory
+16 error extraneous: require-from-string@2.0.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/require-from-string
+16 error extraneous: require-main-filename@2.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/require-main-filename
+16 error extraneous: retry@0.12.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/retry
+16 error extraneous: rolldown@1.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/rolldown
+16 error extraneous: router@2.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/router
+16 error extraneous: rxjs@7.8.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/rxjs
+16 error extraneous: safe-buffer@5.2.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/safe-buffer
+16 error extraneous: safer-buffer@2.1.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/safer-buffer
+16 error extraneous: scheduler@0.27.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/scheduler
+16 error extraneous: send@1.2.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/send
+16 error extraneous: seq-queue@0.0.5 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/seq-queue
+16 error extraneous: serve-static@2.2.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/serve-static
+16 error extraneous: set-blocking@2.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/set-blocking
+16 error extraneous: setprototypeof@1.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/setprototypeof
+16 error extraneous: shebang-command@2.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/shebang-command
+16 error extraneous: shebang-regex@3.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/shebang-regex
+16 error extraneous: shell-quote@1.8.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/shell-quote
+16 error extraneous: side-channel-list@1.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/side-channel-list
+16 error extraneous: side-channel-map@1.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/side-channel-map
+16 error extraneous: side-channel-weakmap@1.0.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/side-channel-weakmap
+16 error extraneous: side-channel@1.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/side-channel
+16 error extraneous: signal-exit@4.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/signal-exit
+16 error extraneous: source-map-js@1.2.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/source-map-js
+16 error extraneous: split2@4.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/split2
+16 error extraneous: sqlstring@2.3.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/sqlstring
+16 error extraneous: statuses@2.0.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/statuses
+16 error extraneous: std-env@3.10.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/std-env
+16 error extraneous: streamsearch@1.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/streamsearch
+16 error extraneous: string_decoder@1.3.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/string_decoder
+16 error extraneous: string-width@4.2.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/string-width
+16 error extraneous: strip-ansi@6.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/strip-ansi
+16 error extraneous: supports-color@8.1.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/supports-color
+16 error extraneous: three@0.182.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/three
+16 error extraneous: tinyglobby@0.2.16 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/tinyglobby
+16 error extraneous: toidentifier@1.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/toidentifier
+16 error extraneous: tree-kill@1.2.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/tree-kill
+16 error extraneous: tslib@2.8.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/tslib
+16 error extraneous: tsx@4.22.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/tsx
+16 error extraneous: type-is@2.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/type-is
+16 error extraneous: typedarray@0.0.6 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/typedarray
+16 error extraneous: typescript@6.0.3 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/typescript
+16 error extraneous: undici-types@7.24.6 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/undici-types
+16 error extraneous: unpipe@1.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/unpipe
+16 error extraneous: util-deprecate@1.0.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/util-deprecate
+16 error extraneous: valibot@1.2.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/valibot
+16 error extraneous: vary@1.1.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/vary
+16 error invalid: vite@8.0.13 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/vite
+16 error extraneous: which-module@2.0.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/which-module
+16 error extraneous: which@2.0.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/which
+16 error extraneous: wrap-ansi@7.0.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/wrap-ansi
+16 error extraneous: wrappy@1.0.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/wrappy
+16 error extraneous: xtend@4.0.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/xtend
+16 error extraneous: y18n@5.0.8 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/y18n
+16 error extraneous: yargs-parser@21.1.1 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/yargs-parser
+16 error extraneous: yargs@17.7.2 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/yargs
+16 error extraneous: zeptomatch@2.1.0 /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/node_modules/zeptomatch
+17 verbose cwd /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing
+18 verbose os Darwin 25.5.0
+19 verbose node v24.15.0
+20 verbose npm  v11.12.1
+21 verbose exit 1
+22 verbose code 1
+23 error A complete log of this run can be found in: /Users/dmitrysergeenko/Documents/Codex/2026-06-19/railway-start-migrate-deploy-prisma/work/smart-3d-qr-landing/.npm-cache/_logs/2026-06-23T07_19_21_483Z-debug-0.log
