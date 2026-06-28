@@ -15,4 +15,8 @@ When implementing from a selected generated mock, treat that image as the source
 - Primary CTA: Join closed beta. Secondary CTA: Sign in.
 - Use real product screenshots; never expose customer emails or private production data in public marketing assets.
 - Use the approved AR-in-the-room visual (`public/assets/smart-3d-qr-hero-ar-final.png`) as the landing hero image; keep the hero free of redundant floating QR callouts.
+- Use the official Smart 3D Scan iOS app logo (`public/assets/smart-3d-scan-ios-logo.png`) in the capture section.
 - Keep the prototype separate from the production application and responsive down to 320px.
+- Production landing URL: `https://smart3dscan.net`; `https://www.smart3dscan.net` redirects to the apex domain.
+- Product application URL: `https://app.smart3dscan.net`; all Sign in / Join closed beta CTAs should lead there.
+- DNS is managed in Squarespace Domains; do not restore Squarespace default website records for `@` or `www`.
