@@ -129,7 +129,9 @@ export function App() {
 
             <div className="capture-card">
               <div className="capture-app">
-                <span className="capture-app-icon"><Smartphone size={28} /></span>
+                <span className="capture-app-icon official">
+                  <img src="./assets/smart-3d-scan-ios-logo.png" alt="" aria-hidden="true" />
+                </span>
                 <div><small>IOS CAPTURE APP</small><strong>Smart 3D Scan</strong><p>Create accurate 3D models directly on iPhone.</p></div>
               </div>
               <div className="app-qr">

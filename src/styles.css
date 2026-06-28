@@ -82,6 +82,8 @@ h1, h2, h3, p { margin-top: 0; }
 .capture-card { display: grid; grid-template-columns: minmax(0, 1fr) 210px; align-items: center; gap: 28px; border: 1px solid #cddbed; border-radius: 12px; background: rgba(255,255,255,.94); padding: 30px; box-shadow: 0 24px 60px rgba(42,54,74,.12); }
 .capture-app { display: flex; align-items: flex-start; gap: 16px; }
 .capture-app-icon { display: grid; place-items: center; flex: 0 0 auto; width: 58px; height: 58px; border-radius: 11px; background: var(--blue); color: #fff; }
+.capture-app-icon.official { overflow: hidden; background: #071121; box-shadow: inset 0 0 0 1px rgba(255,255,255,.08); }
+.capture-app-icon.official img { width: 48px; height: 48px; object-fit: contain; }
 .capture-app div { display: grid; gap: 5px; }
 .capture-app small { color: var(--blue); font-size: 10px; font-weight: 800; letter-spacing: .07em; }
 .capture-app strong { font-size: 23px; letter-spacing: -.02em; }
