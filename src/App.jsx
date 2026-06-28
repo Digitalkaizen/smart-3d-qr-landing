@@ -1,11 +1,14 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   ArrowRight,
   Box,
   Check,
   ChevronDown,
+  ChevronLeft,
+  ChevronRight,
   CloudUpload,
   Code2,
+  Download,
   ExternalLink,
   Menu,
   MonitorSmartphone,
@@ -22,6 +25,12 @@ import {
 
 const APP_URL = "https://app.smart3dscan.net";
 const APP_STORE_URL = "https://apps.apple.com/by/app/smart-3d-scan/id1562115482";
+const USER_GUIDE_PDF = "./assets/smart-3d-qr-closed-beta-user-guide.pdf";
+
+const userGuidePages = Array.from({ length: 8 }, (_, index) => ({
+  number: index + 1,
+  src: `./assets/user-guide/Onboarding-${index + 1}.png`,
+}));
 
 const workflow = [
   { icon: ScanLine, number: "01", title: "Create a 3D scan", text: "Use the Smart 3D Scan iOS app to create your 3D model." },
@@ -57,7 +66,36 @@ function Brand() {
 export function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [openFaq, setOpenFaq] = useState(0);
+  const [guideOpen, setGuideOpen] = useState(false);
+  const [guidePage, setGuidePage] = useState(0);
   const closeMenu = () => setMenuOpen(false);
+  const openGuide = () => {
+    setGuidePage(0);
+    setGuideOpen(true);
+    setMenuOpen(false);
+  };
+  const closeGuide = () => setGuideOpen(false);
+  const goToPreviousGuidePage = () => setGuidePage((page) => (page === 0 ? userGuidePages.length - 1 : page - 1));
+  const goToNextGuidePage = () => setGuidePage((page) => (page === userGuidePages.length - 1 ? 0 : page + 1));
+
+  useEffect(() => {
+    if (!guideOpen) return undefined;
+
+    const handleKeyDown = (event) => {
+      if (event.key === "Escape") closeGuide();
+      if (event.key === "ArrowLeft") goToPreviousGuidePage();
+      if (event.key === "ArrowRight") goToNextGuidePage();
+    };
+
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    window.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [guideOpen]);
 
   return (
     <div id="top" className="site-shell">
@@ -69,6 +107,7 @@ export function App() {
           </button>
           <nav className={menuOpen ? "site-nav open" : "site-nav"} aria-label="Primary navigation">
             <a href="#capture" onClick={closeMenu}>Create a scan</a>
+            <button type="button" className="nav-link-button" onClick={openGuide}>User Guide</button>
             <a href="#experience" onClick={closeMenu}>AR & web</a>
             <a href="#use-cases" onClick={closeMenu}>For teams</a>
             <a href="#faq" onClick={closeMenu}>FAQ</a>
@@ -89,6 +128,7 @@ export function App() {
             <div className="hero-actions">
               <a className="button primary" href={`${APP_URL}/signup`}>Join closed beta <ArrowRight size={18} /></a>
               <a className="text-link" href="#workflow">See the workflow <ChevronDown size={17} /></a>
+              <button className="button secondary guide-trigger" type="button" onClick={openGuide}>View User Guide</button>
             </div>
             <ul className="hero-points" aria-label="Platform benefits">
               <li><Check size={16} /> Stable QR and Viewer links</li>
@@ -156,6 +196,17 @@ export function App() {
               </article>
             ))}
           </div>
+          <div className="guide-callout">
+            <div>
+              <p className="eyebrow">Closed beta onboarding</p>
+              <h3>Need the step-by-step guide?</h3>
+              <p>Open the visual walkthrough from scanning on iPhone to QR codes, AR, web preview, and embed.</p>
+            </div>
+            <div className="guide-callout-actions">
+              <button className="button primary" type="button" onClick={openGuide}>View User Guide</button>
+              <a className="button secondary" href={USER_GUIDE_PDF} download>Download guide <Download size={17} /></a>
+            </div>
+          </div>
         </section>
 
         <section id="experience" className="experience-section">
@@ -216,13 +267,54 @@ export function App() {
 
         <section className="section final-cta">
           <div><p className="eyebrow">Closed beta</p><h2>Ready to turn your next product into an AR-ready QR?</h2><p>Join the early group shaping the Smart 3D Scan ecosystem.</p></div>
-          <a className="button primary light" href={`${APP_URL}/signup`}>Join closed beta <ArrowRight size={18} /></a>
+          <div className="final-actions">
+            <a className="button primary light" href={`${APP_URL}/signup`}>Join closed beta <ArrowRight size={18} /></a>
+            <button className="button light-outline" type="button" onClick={openGuide}>View User Guide</button>
+          </div>
         </section>
       </main>
 
       <footer className="site-footer">
         <div className="footer-inner"><Brand /><p>Scan in 3D. Publish once. Share everywhere.</p><div><a href={`${APP_URL}/login`}>Sign in</a><a href="#faq">FAQ</a><span>© 2026 Smart 3D QR</span></div></div>
       </footer>
+
+      {guideOpen ? (
+        <div className="guide-modal" role="dialog" aria-modal="true" aria-label="Smart 3D QR Closed Beta User Guide">
+          <button className="guide-backdrop" type="button" aria-label="Close User Guide" onClick={closeGuide} />
+          <div className="guide-dialog">
+            <header className="guide-header">
+              <div>
+                <p className="eyebrow">Closed beta user guide</p>
+                <h2>Smart 3D QR Cloud Platform</h2>
+              </div>
+              <div className="guide-header-actions">
+                <a className="button secondary small" href={USER_GUIDE_PDF} download>Download guide <Download size={16} /></a>
+                <button className="guide-close" type="button" aria-label="Close User Guide" onClick={closeGuide}><X size={22} /></button>
+              </div>
+            </header>
+            <div className="guide-viewer">
+              <button className="guide-arrow prev" type="button" aria-label="Previous guide page" onClick={goToPreviousGuidePage}><ChevronLeft size={28} /></button>
+              <img src={userGuidePages[guidePage].src} alt={`Smart 3D QR onboarding guide page ${userGuidePages[guidePage].number} of ${userGuidePages.length}`} />
+              <button className="guide-arrow next" type="button" aria-label="Next guide page" onClick={goToNextGuidePage}><ChevronRight size={28} /></button>
+            </div>
+            <footer className="guide-footer">
+              <span>{userGuidePages[guidePage].number} / {userGuidePages.length}</span>
+              <div className="guide-dots" aria-label="Guide pages">
+                {userGuidePages.map((page, index) => (
+                  <button
+                    key={page.number}
+                    className={index === guidePage ? "active" : ""}
+                    type="button"
+                    aria-label={`Open guide page ${page.number}`}
+                    aria-current={index === guidePage ? "page" : undefined}
+                    onClick={() => setGuidePage(index)}
+                  />
+                ))}
+              </div>
+            </footer>
+          </div>
+        </div>
+      ) : null}
     </div>
   );
 }

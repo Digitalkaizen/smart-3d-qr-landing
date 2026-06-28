@@ -20,3 +20,5 @@ When implementing from a selected generated mock, treat that image as the source
 - Production landing URL: `https://smart3dscan.net`; `https://www.smart3dscan.net` redirects to the apex domain.
 - Product application URL: `https://app.smart3dscan.net`; all Sign in / Join closed beta CTAs should lead there.
 - DNS is managed in Squarespace Domains; do not restore Squarespace default website records for `@` or `www`.
+- Closed beta onboarding should be offered as an on-page `View User Guide` modal carousel first, with `Download guide` as a secondary action.
+- User guide source pages live in `public/assets/user-guide/Onboarding-*.png`; downloadable PDF lives at `public/assets/smart-3d-qr-closed-beta-user-guide.pdf`.

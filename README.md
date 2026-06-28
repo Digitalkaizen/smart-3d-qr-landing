@@ -76,6 +76,8 @@ Do not click Squarespace `Update DNS records` without checking the records first
 - Smart 3D Scan app logo: `public/assets/smart-3d-scan-ios-logo.png`.
 - App Store badge: `public/assets/download-on-the-app-store.png`.
 - App Store QR: `public/assets/smart-3d-scan-app-store-qr.png`.
+- Closed beta user guide pages: `public/assets/user-guide/Onboarding-*.png`.
+- Closed beta downloadable PDF: `public/assets/smart-3d-qr-closed-beta-user-guide.pdf`.
 
 ## CTA policy
 
@@ -83,5 +85,7 @@ The landing explains the product and sends users into the product app:
 
 - `Sign in` -> `https://app.smart3dscan.net/login`
 - `Join closed beta` -> `https://app.smart3dscan.net/signup`
+- `View User Guide` opens the on-page modal carousel.
+- `Download guide` downloads the closed beta PDF guide.
 
 QR codes, Viewer links, Embed links, and AR flows belong to `https://app.smart3dscan.net`, not to the landing domain.
