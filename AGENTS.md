@@ -6,6 +6,8 @@ Before making substantial visual changes, use the Product Design plugin's `get-c
 
 When implementing from a selected generated mock, treat that image as the source of truth for layout, component anatomy, density, spacing, color, typography, visible content, and hierarchy.
 
+Before major UX/UI, onboarding, landing, dashboard, or beta messaging work, read the shared product context at `docs/PRODUCT_DESIGN_CONTEXT.md`.
+
 ## Smart 3D QR landing decisions
 
 - Match the existing Smart 3D QR dashboard: Inter/system sans, white and pale blue surfaces, `#1f66d1` primary blue, `#162033` text, restrained 8–12px radii, thin blue-gray borders, and soft shadows.
