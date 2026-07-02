@@ -212,7 +212,7 @@ export function App() {
         <section id="experience" className="experience-section">
           <div className="section experience-inner">
             <div className="experience-visual">
-              <img src="./assets/smart-3d-qr-viewer.png" alt="Public Smart 3D QR Viewer showing the Fawn toy model and download actions" />
+              <img src="./assets/smart-3d-qr-viewer.png" alt="Public Smart 3D QR Viewer showing a chair model and download actions" />
             </div>
             <div className="experience-copy">
               <p className="eyebrow">One Viewer, every surface</p>
